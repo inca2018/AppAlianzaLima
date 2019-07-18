@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@color/color_login"
+    android:orientation="vertical"
+    >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="140dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/portada_descripcion" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="22dp"
+            android:src="@drawable/user_default"
+
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/username_principal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/profile_image"
+            android:layout_below="@+id/profile_image"
+            android:layout_marginTop="8dp"
+            android:gravity="left"
+            android:text="Jesús Inca Cárdenas"
+            android:textAllCaps="true"
+            android:textColor="@color/fb"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/tipo_principal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/username_principal"
+            android:layout_below="@+id/username_principal"
+            android:layout_marginTop="8dp"
+            android:gravity="left"
+            android:text="@string/administrador"
+            android:textColor="@color/fb"
+            android:textSize="10sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlHardcoded" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item android:id="@+id/nav_1" android:icon="@mipmap/icon_home3"
+    android:title="Inicio"
+    android:checkable="true" />
+
+
+    <item android:id="@+id/menu_modulo_solicitud"
+        android:icon="@mipmap/icon_user_login"
+        android:title="Solicitudes de Usuarios"
+        android:checkable="true" />
+
+    <item android:title="MODULO CAPTACIÓN:"
+        android:id="@+id/menu_modulo_captacion">
+        <menu>
+            <item android:id="@+id/nav_2" android:icon="@mipmap/icon_captacion"
+                android:title="Gestión Captación"
+                android:checkable="true"
+                android:iconTint="@color/blue"/>
+
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="MODULO METODOLOGIA:"
+        android:id="@+id/menu_modulo_metodologia">
+        <menu>
+            <item android:id="@+id/nav_6" android:icon="@mipmap/icon_metodologia"
+                android:title="Gestión Metodologia"
+                android:checkable="true"/>
+
+        </menu>
+    </item>
+
+    <item android:title="MODULO ESTADISTICOS:"
+        android:id="@+id/menu_modulo_estadisticos">
+        <menu>
+            <item android:id="@+id/nav_8" android:icon="@mipmap/icon_estadistico"
+                android:title="Gestión Estadisticos"
+                android:checkable="true"/>
+
+        </menu>
+    </item>
+
+
+
+
+
+    <item android:title="MODULO MANTENIMIENTO:"
+        android:id="@+id/menu_modulo_mantenimiento">
+        <menu>
+            <item android:id="@+id/mant_generales" android:icon="@mipmap/icon_mantenimiento"
+                android:title="Generales"
+                android:checkable="true"
+                />
+
+        </menu>
+    </item>
+
+
+    <item android:title="INFORMACIÓN GENERAL:"
+        android:id="@+id/menu_modulo_informacion">
+        <menu>
+            <item android:id="@+id/info_general" android:icon="@mipmap/icon_informacion"
+                android:title="Generales"
+                android:checkable="true"
+                />
+
+        </menu>
+    </item>
+
+        <item android:id="@+id/nav_salir" android:icon="@mipmap/icon_exit"
+            android:title="Cerrar Sesión"
+            android:checkable="true" />
+
+</menu>
